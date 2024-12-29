@@ -1,2 +1,4 @@
 requests
+gql
+requests_toolbelt
 openai
