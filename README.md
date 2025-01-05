@@ -22,6 +22,39 @@ A lot of people said LLM models could replace software engineers and the vendor 
     ```
     Replace `LEETCODE_COOKIE` and `LEETCODE_CSRF_TOKEN` with your LeetCode cookie and CSRF token. You can find these values by inspecting the network requests when you log in to LeetCode.
 
+    ### How to get LeetCode Cookie and CSRF Token
+    Firefox:
+    1. Open the LeetCode website.
+    2. Press `F12` to open the developer tools.
+    3. Go to the `Network` tab.
+    4. Log in to LeetCode.
+    5. Find the request to `leetcode.com` in the network requests.
+    6. Find the `Cookie` headers in the request headers.
+
+    ![Firefox Cookie](./imgs/cookie.png)
+
+    7. Copy the value of the `Cookie` header and set it as the `LEETCODE_COOKIE` environment variable.
+    8. Extract the `csrftoken` value from the `Cookie` header and set it as the `LEETCODE_CSRF_TOKEN` environment variable.
+
+    Chrome:
+    1. Open the LeetCode website.
+    2. Press `F12` to open the developer tools.
+    3. Go to the `Application` tab.
+    4. Find the `Cookies` section in the left sidebar.
+    5. Find the `csrftoken` cookie.
+
+    ![Chrome Cookie](./imgs/chrome-csrf.png)
+
+    6. Copy the value of the `Value` field and set it as the `LEETCODE_CSRF_TOKEN` environment variable.
+    7. Go to the `Network` tab.
+    8. Find the request to `leetcode.com` in the network requests.
+    9. Find the `Cookie` headers in the request headers.
+
+    ![Chrome Cookie](./imgs/chrome-cookie.png)
+
+    10. Copy the value of the `Cookie` header and set it as the `LEETCODE_COOKIE` environment variable.
+
+
 4. Set up the LLM model:
     ```sh
     export API_KEY="your_openai_api_key"
@@ -35,8 +68,8 @@ A lot of people said LLM models could replace software engineers and the vendor 
 
 ## Tested Models
 - claude-3-5-sonnet-20241022
-- gemini-2.0-flash-exp
-- gpt-4o
+- gemini-exp-1206
+- o1-preview
 
 
 ## Test Results
