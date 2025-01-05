@@ -47,3 +47,6 @@ A lot of people said LLM models could replace software engineers and the vendor 
 | [Weekly Contest 430](https://leetcode.com/contest/weekly-contest-430) | gemini-2.0-flash-exp | :white_check_mark: | :x:  | :x: | :x: |
 | [Weekly Contest 430](https://leetcode.com/contest/weekly-contest-430) | gpt-4o | :white_check_mark: | :x:  | :x: | :x: |
 | [Weekly Contest 430](https://leetcode.com/contest/weekly-contest-430) | o1 | :white_check_mark: | :x:  | :x: | :white_check_mark: |
+| [Weekly Contest 431](https://leetcode.com/contest/weekly-contest-431) | claude-3-5-sonnet-20241022 | :white_check_mark: | :x:  | :x: | :x: |
+| [Weekly Contest 431](https://leetcode.com/contest/weekly-contest-431) | gemini-exp-1206 | :white_check_mark: | :x:  | :x: | :x: |
+| [Weekly Contest 431](https://leetcode.com/contest/weekly-contest-431) | o1-preview | :white_check_mark: | :white_check_mark:  | :x: | :white_check_mark: |

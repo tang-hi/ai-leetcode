@@ -8,7 +8,6 @@ import time
 COOKIE = os.getenv("LEETCODE_COOKIE")
 CSRF_TOKEN = os.getenv("LEETCODE_CSRF_TOKEN")
 API_KEY = os.getenv("OPENAI_API")
-
 client = OpenAI(
     api_key=API_KEY,
     base_url="https://aihubmix.com/v1"
@@ -65,8 +64,8 @@ Please write the most efficient solution possible."""
 
 
 def main():
-    llm_models = ['claude-3-5-sonnet-20241022',
-                  'gemini-2.0-flash-exp', 'gpt-4o']
+    llm_models = ['o1-preview', 'claude-3-5-sonnet-20241022',
+                  'gemini-exp-1206']
     llm_models_sloved = {model: {} for model in llm_models}
     # read weekly contest problems from argument
     argparser = argparse.ArgumentParser()
