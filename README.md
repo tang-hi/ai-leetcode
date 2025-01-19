@@ -83,6 +83,9 @@ A lot of people said LLM models could replace software engineers and the vendor 
 | [Weekly Contest 431](https://leetcode.com/contest/weekly-contest-431) | claude-3-5-sonnet-20241022 | :white_check_mark: | :x:  | :x: | :x: |
 | [Weekly Contest 431](https://leetcode.com/contest/weekly-contest-431) | gemini-exp-1206 | :white_check_mark: | :x:  | :x: | :x: |
 | [Weekly Contest 431](https://leetcode.com/contest/weekly-contest-431) | o1-preview | :white_check_mark: | :white_check_mark:  | :x: | :white_check_mark: |
-| [Weekly Contest 432](https://leetcode.com/contest/weekly-contest-431) | claude-3-5-sonnet-20241022 | :x: | :x:  | :x: | :x: |
-| [Weekly Contest 432](https://leetcode.com/contest/weekly-contest-431) | gemini-exp-1206 | :x: | :white_check_mark:  | :x: | :x: |
-| [Weekly Contest 432](https://leetcode.com/contest/weekly-contest-431) | o1-preview | :white_check_mark: | :white_check_mark:  | :white_check_mark: | :x: |
+| [Weekly Contest 432](https://leetcode.com/contest/weekly-contest-432) | claude-3-5-sonnet-20241022 | :x: | :x:  | :x: | :x: |
+| [Weekly Contest 432](https://leetcode.com/contest/weekly-contest-432) | gemini-exp-1206 | :x: | :white_check_mark:  | :x: | :x: |
+| [Weekly Contest 432](https://leetcode.com/contest/weekly-contest-432) | o1-preview | :white_check_mark: | :white_check_mark:  | :white_check_mark: | :x: |
+| [Weekly Contest 433](https://leetcode.com/contest/weekly-contest-433) | claude-3-5-sonnet-20241022 | :white_check_mark: | :x:  | :x: | :x: |
+| [Weekly Contest 433](https://leetcode.com/contest/weekly-contest-433) | gemini-exp-1206 | :white_check_mark: | :x:  | :x: | :x: |
+| [Weekly Contest 433](https://leetcode.com/contest/weekly-contest-433) | o1-preview | :white_check_mark: | :white_check_mark:  | :x: | :x: |
