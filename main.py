@@ -65,7 +65,7 @@ Please write the most efficient solution possible."""
 
 def main():
     llm_models = ['o1-preview', 'claude-3-5-sonnet-20241022',
-                  'gemini-exp-1206']
+                  'deepseek-reasoner']
     llm_models_sloved = {model: {} for model in llm_models}
     # read weekly contest problems from argument
     argparser = argparse.ArgumentParser()
@@ -105,7 +105,8 @@ def main():
                 submission_id = response["submission_id"]
                 print(f"Submission ID: {submission_id}")
             else:
-                print(f"Failed to submit solution for {problem}")
+                print(f"Failed to submit solution for {
+                      problem}, status: {status}, response: {response}")
                 continue
 
             # wait 10s for the submission to be processed
